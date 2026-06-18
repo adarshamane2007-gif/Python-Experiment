@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyN7S0xQM63fm9u13b1EF1Z5",
+      "authorship_tag": "ABX9TyPe1L46DmRG0oFyW/MreWFA",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -28,13 +28,13 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 3,
+      "execution_count": 4,
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
         "id": "jirvtkA-tpUk",
-        "outputId": "8d2193e8-98e4-4fa9-ac19-55b5616fc2f2"
+        "outputId": "8c895223-1292-4634-b4f4-503084ac40a3"
       },
       "outputs": [
         {
@@ -47,7 +47,7 @@
             "3. Search Book \n",
             "4.Exit\n",
             "Enter choice :2\n",
-            "Books:  Programming language\n",
+            "Books: Programming language\n",
             "\n",
             "1.Add Book\n",
             "2. view Books \n",
@@ -72,7 +72,7 @@
         "    choice = input (\"Enter choice :\")\n",
         "\n",
         "    if choice ==\"1\":\n",
-        "      book =input(\"Enter book name :\")\n",
+        "      book =input (\"Enter book name :\")\n",
         "      book.append (book)\n",
         "      print(\"Book added!\")\n",
         "\n",
